@@ -37,7 +37,7 @@ logo h1 {
 logo h2 {
   font-weight: normal;
   color: rgba(255, 144, 0, 1);
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 2px 2px 4px white;
 }
 
 logo img {
@@ -54,6 +54,11 @@ links {
 
 }
 
+links a {
+  text-decoration: none;
+  color: black;
+}
+
 links ul {
   display: flex;
 
@@ -65,7 +70,9 @@ links ul li {
   align-self: center;
   font-size: 1.5em;
   padding: 0 16px 0 0;
-
+  text-shadow: 2px 2px 2px white;
+  color: black;
+  opacity: 0.7;
 }
 
 sectionOne {
@@ -90,14 +97,14 @@ sectionOneContent {
   justify-content: space-between;
   margin-left: 40px;
   width: 25%;
+  color: cornsilk;
+  text-shadow: 2px 2px 4px black;
 
 }
 
 sectionOneContent h1 {
   text-align: left;
   font-weight: bold;
-  color: black;
-  opacity: 0.7;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -120,16 +127,25 @@ sectionOneContent div {
 sectionOneContent a {
   display: flex;
   width: 100%;
-  color: white;
   text-decoration: none;
   text-shadow: 2px 2px 2px black;
-
+  color: cornsilk;
+  font-weight: bold;
 
 }
 
 sectionTwo {
   display: flex;
   background-color: gray;
+
+}
+
+sectionTwo a {
+  width: 100%;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px black;
+  color: cornsilk;
+  font-weight: bold;
 }
 
 sectionTwoContent {
@@ -138,12 +154,14 @@ sectionTwoContent {
   padding-left: 24px;
   width: 60%;
   flex-direction: column;
+  color: cornsilk;
+  text-shadow: 2px 2px 4px black;
 }
 
 sectionTwo img {
   width: 100%;
   margin: 32px 24px 32px 0px;
-
+  align-self: flex-start;
 }
 
 sectionTwoContent h1 {
@@ -161,13 +179,14 @@ slides {
   width: 423px;
   margin-left: 24px;
   border-left: solid 2px rgba(255, 144, 0, 0.7);
+  color: cornsilk;
+  text-shadow: 2px 2px 4px black;
+
 }
 
 .slide {
   display: flex;
   width: 100%;
-
-
 }
 
 sectionTwo slides .slide img {
@@ -177,6 +196,10 @@ sectionTwo slides .slide img {
   margin: 0px;
   display: inline;
 
+}
+
+.one {
+  margin-top: 16px;
 }
 
 .two {
@@ -189,12 +212,17 @@ sectionTwo slides .slide img {
   background-color: rgba(255, 144, 0, 0.7);
 }
 
+.three div {
+  padding-bottom: 16px;
+}
+
 sectionThree {
   display: flex;
   flex-wrap: wrap;
   background-color: rgba(255, 144, 0, 0.7);
-
-
+  color: cornsilk;
+  text-shadow: 2px 2px 4px black;
+  justify-content: space-around;
 }
 
 sectionThree h1 {
@@ -203,4 +231,30 @@ sectionThree h1 {
   width: 100%;
   margin: 32px 0px;
 
+}
+
+courseTiles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  margin: 32px;
+  max-width: 430.281px;
+}
+
+.tile img {
+  height: 220px;
+  padding: 0px;
+}
+
+.slideText {
+  padding: 16px;
 }
