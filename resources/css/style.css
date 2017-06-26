@@ -40,8 +40,8 @@ logo h1 {
 }
 
 logo h2 {
-  font-weight: normal;
-  color: rgba(255, 144, 0, 1);
+  font-weight: bold;
+  color: rgba(255, 144, 0, 0.7);
   text-shadow: 2px 2px 4px white;
 }
 
@@ -92,7 +92,7 @@ sectionOne img {
   height: 100%;
   margin: 32px 0px 32px 24px;
   border-radius: 10px;
-  border: solid 1px white;
+  border: solid 2px white;
 }
 
 sectionOneContent {
@@ -127,7 +127,7 @@ sectionOneContent div {
   text-align: center;
   padding: 8px 0px;
   border-radius: 10px;
-  border: solid 1px white;
+  border: solid 2px white;
   font-size: 25px;
 }
 
@@ -170,7 +170,7 @@ sectionTwo img {
   margin: 32px 24px 32px 0px;
   align-self: flex-start;
   border-radius: 10px;
-  border: solid 1px white;
+  border: solid 2px white;
 }
 
 sectionTwoContent h1 {
@@ -258,7 +258,7 @@ courseTiles {
   background-color: gray;
   margin: 32px;
   max-width: 430.281px;
-  border: solid 1px white;
+  border: solid 2px white;
   border-radius: 10px;
 }
 
