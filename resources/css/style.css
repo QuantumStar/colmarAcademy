@@ -263,9 +263,11 @@ courseTiles {
 sectionFour {
   background-color: gray;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   color: cornsilk;
   text-shadow: 2px 2px 4px black;
-  
+
 }
 
 sectionFour h1 {
@@ -274,4 +276,23 @@ sectionFour h1 {
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
+}
+
+sectionFour video {
+
+  width: 60%;
+  padding: 0px 16px 24px 24px;
+}
+
+sectionFour img {
+  
+  padding: 16px;
+}
+
+sectionFour div {
+
+}
+
+sectionFour * {
+  border: 1px solid red;
 }
