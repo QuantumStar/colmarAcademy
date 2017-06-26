@@ -263,21 +263,15 @@ courseTiles {
 sectionFour {
   background-color: gray;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   color: cornsilk;
   text-shadow: 2px 2px 4px black;
-  justify-content: center;
+  
 }
 
 sectionFour h1 {
-  padding: 32px 0px;
-}
-
-sideBar {
-  width: 423px;
-}
-
-videoContainer {
-  width: 60%;
+  margin: 0px;
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
 }
