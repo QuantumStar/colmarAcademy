@@ -21,6 +21,11 @@ navBar {
   border-right: solid rgba(255, 144, 0, 0.7);
 }
 
+navBar a {
+  display: flex;
+  text-decoration: none;
+}
+
 logo {
   display: flex;
   align-self: center;
@@ -239,7 +244,7 @@ sectionThree h1 {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 32px 0px;
+  margin: 32px 0px 0px 0px;
 
 }
 
