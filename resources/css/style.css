@@ -128,7 +128,7 @@ sectionOneContent a {
   display: flex;
   width: 100%;
   text-decoration: none;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 4px black;
   color: cornsilk;
   font-weight: bold;
 
@@ -178,7 +178,7 @@ slides {
   flex-direction: column;
   width: 423px;
   margin-left: 24px;
-  border-left: solid 2px rgba(255, 144, 0, 0.7);
+  margin-top: 32px;
   color: cornsilk;
   text-shadow: 2px 2px 4px black;
 
@@ -199,7 +199,12 @@ sectionTwo slides .slide img {
 }
 
 .one {
-  margin-top: 16px;
+  border-top: solid 2px rgba(255, 144, 0, 0.7);
+}
+
+.one img {
+  padding-top: 0px;
+
 }
 
 .two {
@@ -213,7 +218,7 @@ sectionTwo slides .slide img {
 }
 
 .three div {
-  padding-bottom: 16px;
+  padding-bottom: 32px;
 }
 
 sectionThree {
@@ -229,7 +234,7 @@ sectionThree h1 {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 32px 0px;
+  margin: 32px 0px 16px 0px;
 
 }
 
@@ -246,7 +251,7 @@ courseTiles {
   display: flex;
   flex-direction: column;
   background-color: gray;
-  margin: 32px;
+  margin: 16px;
   max-width: 430.281px;
 }
 
@@ -257,4 +262,17 @@ courseTiles {
 
 .slideText {
   padding: 16px;
+}
+
+sectionFour {
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  color: cornsilk;
+  text-shadow: 2px 2px 4px black;
+  justify-content: center;
+}
+
+sectionFour h1 {
+  padding: 32px 0px;
 }
