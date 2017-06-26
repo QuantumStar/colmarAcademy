@@ -14,6 +14,11 @@ navBar {
   background-color: silver;
   position: fixed;
   top: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: solid 1px white;
+  border-bottom: solid 1px white;
+  border-right: solid 1px white;
 }
 
 logo {
@@ -85,8 +90,9 @@ sectionOne {
 sectionOne img {
   width: 60%;
   height: 100%;
-  padding: 32px 0px 32px 24px;
-
+  margin: 32px 0px 32px 24px;
+  border-radius: 10px;
+  border: solid 1px white;
 }
 
 sectionOneContent {
@@ -120,7 +126,8 @@ sectionOneContent div {
   justify-content: center;
   text-align: center;
   padding: 8px 0px;
-  border-radius: 15px;
+  border-radius: 10px;
+  border: solid 1px white;
   font-size: 25px;
 }
 
@@ -162,6 +169,8 @@ sectionTwo img {
   width: 100%;
   margin: 32px 24px 32px 0px;
   align-self: flex-start;
+  border-radius: 10px;
+  border: solid 1px white;
 }
 
 sectionTwoContent h1 {
@@ -186,16 +195,15 @@ slides {
 
 .slide {
   display: flex;
-  width: 100%;
+
 }
 
 sectionTwo slides .slide img {
   max-width: 35%;
   height: 100%;
-  padding: 16px;
-  margin: 0px;
+  margin: 16px;
   display: inline;
-
+  border-radius: 10px;
 }
 
 .one {
@@ -204,12 +212,14 @@ sectionTwo slides .slide img {
 
 .two {
   border-top: solid 2px rgba(255, 144, 0, 0.7);
-  border-bottom: solid 2px rgba(255, 144, 0, 0.7);
+
 
 }
 
 .three {
   background-color: rgba(255, 144, 0, 0.7);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .three div {
@@ -243,16 +253,20 @@ courseTiles {
 }
 
 .tile {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   background-color: gray;
   margin: 32px;
   max-width: 430.281px;
+  border: solid 1px white;
+  border-radius: 10px;
 }
 
 .tile img {
   height: 220px;
   padding: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .slideText {
@@ -279,20 +293,59 @@ sectionFour h1 {
 }
 
 sectionFour video {
-
   width: 60%;
-  padding: 0px 16px 24px 24px;
+  margin: 0px 16px 24px 24px;
+  align-self: flex-start;
+  border-radius: 10px;
+  border: solid 1px white;
 }
 
 sectionFour img {
-  
-  padding: 16px;
+  max-height: 100%;
+  width: auto;
+  margin: 16px;
+  border-radius: 10px;
 }
 
-sectionFour div {
+sectionFour .thesis {
+  display: flex;
+  flex-direction: row;
 
 }
 
-sectionFour * {
-  border: 1px solid red;
+sectionFour .slide {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: rgba(255, 144, 0, 0.7);
+  border: solid 1px white;
+  border-radius: 10px;
+  margin-right: 24px;
+  margin-bottom: 16px;
+}
+
+.slideBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.thesisText {
+  display: inline;
+  align-self: center;
+
+}
+
+.bottomText {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-left: 24px;
+  margin-bottom: 32px;
+
+}
+
+.bottomText h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
 }
