@@ -89,7 +89,7 @@ sectionOne {
   display: flex;
   background-color: rgba(255, 144, 0, 0.7);
   padding-top: 64px;
-
+  width: 100%;
 }
 
 sectionOne img {
@@ -149,7 +149,7 @@ sectionOneContent a {
 sectionTwo {
   display: flex;
   background-color: gray;
-
+  width: 100%;
 }
 
 sectionTwo a {
@@ -238,6 +238,7 @@ sectionThree {
   color: cornsilk;
   text-shadow: 2px 2px 4px black;
   justify-content: space-around;
+  width: 100%;
 }
 
 sectionThree h1 {
@@ -286,7 +287,7 @@ sectionFour {
   flex-wrap: wrap;
   color: cornsilk;
   text-shadow: 2px 2px 4px black;
-
+  width: 100%;
 }
 
 sectionFour h1 {
