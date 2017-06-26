@@ -4,6 +4,7 @@ body {
   margin: 0px;
   font-family: 'Cinzel', serif;
   background-color: gray;
+  width: 100%;
 }
 
 navBar {
@@ -19,6 +20,8 @@ navBar {
   border-left: solid 2px rgba(255, 144, 0, 1);
   border-bottom: solid 2px rgba(255, 144, 0, 1);
   border-right: solid rgba(255, 144, 0, 0.7);
+  right: 0px;
+  left: 0px;
 }
 
 navBar a {
