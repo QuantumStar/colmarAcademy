@@ -4,6 +4,9 @@ body {
   margin: 0px;
   font-family: 'Cinzel', serif;
   background-color: gray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
 }
 
