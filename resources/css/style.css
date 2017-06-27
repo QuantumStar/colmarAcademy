@@ -7,10 +7,16 @@ body {
   width: 100%;
 }
 
+a:-webkit-any-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
 navBar {
   display: flex;
   height: 64px;
-
   z-index: 10;
   background-color: silver;
   position: fixed;
@@ -244,11 +250,22 @@ sectionThree {
   width: 100%;
 }
 
-sectionThree h1 {
+sectionThree h2 {
   display: flex;
   justify-content: center;
   width: 100%;
   margin: 32px 0px 0px 0px;
+
+}
+
+sectionThree h3 {
+  margin-bottom: 0px;
+
+}
+
+sectionThree h4 {
+  margin-top: 10px;
+  border-top-width: 10px;
 
 }
 
@@ -357,5 +374,29 @@ sectionFour .slide {
 .bottomText h2 {
   margin-top: 0px;
   margin-bottom: 0px;
+
+}
+
+footer {
+  display: flex;
+  border-top: solid 2px rgba(255, 144, 0, 0.7);
+  justify-content: space-between;
+
+}
+
+footer h4 {
+  margin: 32px 24px 32px 24px;
+  color: cornsilk;
+  text-shadow: 2px 2px 4px black;
+}
+
+.termsPrivacy {
+  display: flex;
+  flex-direction: row;
+}
+
+#termsPrivacy.a {
+  display: flex;
+  text-decoration: none;
 
 }
