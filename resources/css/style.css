@@ -405,3 +405,33 @@ footer h4 {
   text-decoration: none;
 
 }
+
+/* Breakpoint for mobile version */
+@media only screen and (min-width : 851px) {
+  navBarMobile {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width : 850px) {
+
+  logo, links{
+    display: none;
+  }
+
+  navBarMobile {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    padding-top: 5px;
+  }
+
+  navBarMobile img {
+    height: 100%;
+    width: auto;
+
+  }
+
+}
