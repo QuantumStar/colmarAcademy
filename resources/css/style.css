@@ -30,6 +30,7 @@ navBar {
   border-right: solid rgba(255, 144, 0, 0.7);
   right: 0px;
   left: 0px;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 navBar a {
@@ -383,11 +384,12 @@ footer {
   display: flex;
   border-top: solid 2px rgba(255, 144, 0, 0.7);
   justify-content: space-between;
-
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 footer h4 {
-  margin: 32px 24px 32px 24px;
+  margin: 32px 14px 32px 14px;
   color: cornsilk;
   text-shadow: 2px 2px 4px black;
 }
