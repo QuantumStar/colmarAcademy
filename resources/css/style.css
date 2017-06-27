@@ -155,7 +155,8 @@ sectionOneContent a {
   text-shadow: 2px 2px 2px black;
   color: cornsilk;
   font-weight: bold;
-
+  box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
+  border-radius: 10px;
 }
 
 sectionTwo {
