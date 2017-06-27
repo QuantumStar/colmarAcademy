@@ -249,12 +249,19 @@ sectionTwo slides .slide img {
 
 sectionThree {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   background-color: rgba(255, 144, 0, 0.7);
   color: cornsilk;
   text-shadow: 2px 2px 4px black;
   justify-content: space-around;
   width: 100%;
+}
+
+sectionThree h1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 sectionThree h2 {
