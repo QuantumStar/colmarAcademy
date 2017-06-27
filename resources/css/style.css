@@ -12,7 +12,9 @@ a:-webkit-any-link {
     color: inherit;
 }
 
-
+h1, h2 {
+  text-decoration: underline;
+}
 
 navBar {
   display: flex;
