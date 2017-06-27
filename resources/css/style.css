@@ -407,14 +407,14 @@ footer h4 {
 }
 
 /* Breakpoint for mobile version */
-@media only screen and (min-width : 721px) {
+@media only screen and (min-width : 321px) {
   navBarMobile {
     display: none;
   }
 
 }
 
-@media only screen and (max-width : 720px) {
+@media only screen and (max-width : 320px) {
 
   logo, links{
     display: none;
