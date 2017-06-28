@@ -149,6 +149,8 @@ sectionOneContent div {
   border-radius: 10px;
   border: solid 2px white;
   font-size: 25px;
+  box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
+  border-radius: 10px;
 }
 
 sectionOneContent a {
@@ -158,8 +160,7 @@ sectionOneContent a {
   text-shadow: 2px 2px 2px black;
   color: cornsilk;
   font-weight: bold;
-  box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
-  border-radius: 10px;
+
 }
 
 sectionTwo {
@@ -446,5 +447,40 @@ footer h4 {
 
   navBarMobile a {
     display: block;
+  }
+
+  sectionOne img {
+    max-width: 100%;
+    margin: 2px auto auto auto;
+
+  }
+
+  sectionOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+  sectionOneContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    width: 100%;
+    margin-top: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  sectionOneContent p {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  sectionOneContent div {
+    margin-bottom: 32px;
+    margin-right: 46px;
+    margin-left: 46px;
+    box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
   }
 }
