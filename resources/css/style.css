@@ -6,7 +6,6 @@ body {
   background-color: gray;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -422,7 +421,9 @@ footer h4 {
   navBarMobile {
     display: none;
   }
-
+  sectionTwoMobile {
+    display: none;
+  }
 }
 
 @media only screen and (max-width : 1450px) {
@@ -452,7 +453,7 @@ footer h4 {
   sectionOne img {
     width: 99.5%;
     height: auto;
-    margin: 2px 2px auto auto;
+    margin: 16px;
 
   }
 
@@ -488,4 +489,42 @@ footer h4 {
   sectionOneContent a {
     width: 50%;
   }
+
+  sectionTwoContent, slides {
+    display: none;
+  }
+
+  sectionTwoMobile {
+    color: cornsilk;
+    text-shadow: 2px 2px 4px black;
+    justify-content: center;
+  }
+
+  sectionTwoMobile .mobileSlide {
+
+  }
+
+  sectionTwoMobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 100%;
+    height: auto;
+  }
+
+  sectionTwoMobile img {
+    width: 99.5%;
+    height: auto;
+    border-radius: 10px;
+    border: solid 2px white;
+  }
+
+  mobileTextTwo div {
+    margin: 0px 16px 0px 16px;
+  }
+
+
 }
