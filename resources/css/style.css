@@ -18,7 +18,7 @@ h1, h2 {
   text-decoration: underline;
 }
 
-navBar {
+.navBar {
   display: flex;
   height: 64px;
   z-index: 10;
@@ -33,80 +33,82 @@ navBar {
   right: 0px;
   left: 0px;
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-items: center;
 }
 
-navBar a {
+.navBar a {
   display: flex;
   text-decoration: none;
 }
 
-logo {
+.logo {
   display: flex;
   align-self: center;
 
 }
 
-logo h1, logo h2 {
+.logo h1, .logo h2 {
   align-self: center;
   font-size: 2em;
   font-weight: bold;
 }
 
-logo h1 {
+.logo h1 {
   text-shadow: 2px 2px 2px white;
   color: black;
   opacity: 0.7;
 }
 
-logo h2 {
+.logo h2 {
   font-weight: bold;
   color: rgba(255, 144, 0, 0.7);
   text-shadow: 2px 2px 4px white;
 }
 
-logo img {
+.logo img {
   width: 40px;
   height: auto;
   margin-left: 11px;
 
 }
 
-links {
+.links {
   display: flex;
   width: 100%;
   justify-content: flex-end;
+  align-content: center;
 
 }
 
-links a {
-  text-decoration: none;
+.links a {
   color: black;
-}
-
-links ul {
-  display: flex;
 
 }
 
-links ul li {
+.links ul {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
+
+}
+
+.links ul li {
   align-self: center;
   font-size: 1.5em;
   padding: 0 16px 0 0;
   text-shadow: 2px 2px 2px white;
   color: black;
   opacity: 0.7;
+  list-style-type: none;
 }
 
-sectionOne {
+.sectionOne {
   display: flex;
   background-color: rgba(255, 144, 0, 0.7);
   padding-top: 64px;
   width: 100%;
 }
 
-sectionOne img {
+.sectionOne img {
   width: 60%;
   height: 100%;
   margin: 32px 0px 32px 24px;
@@ -114,7 +116,7 @@ sectionOne img {
   border: solid 2px white;
 }
 
-sectionOneContent {
+.sectionOneContent {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -127,18 +129,18 @@ sectionOneContent {
 
 }
 
-sectionOneContent h1 {
+.sectionOneContent h1 {
   text-align: left;
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-sectionOneContent p {
+.sectionOneContent p {
   width: 100%;
 }
 
-sectionOneContent div {
+.sectionOneContent div {
   font-size: 0.8rem;
   width: 100%;
   background-color: gray;
@@ -152,7 +154,7 @@ sectionOneContent div {
   border-radius: 10px;
 }
 
-sectionOneContent a {
+.sectionOneContent a {
   display: flex;
   width: 100%;
   text-decoration: none;
@@ -162,13 +164,13 @@ sectionOneContent a {
 
 }
 
-sectionTwo {
+.sectionTwo {
   display: flex;
   background-color: gray;
   width: 100%;
 }
 
-sectionTwo a {
+.sectionTwo a {
   width: 100%;
   text-decoration: none;
   text-shadow: 2px 2px 2px black;
@@ -176,7 +178,7 @@ sectionTwo a {
   font-weight: bold;
 }
 
-sectionTwoContent {
+.sectionTwoContent {
   display: flex;
   flex-wrap: wrap;
   padding-left: 24px;
@@ -186,7 +188,7 @@ sectionTwoContent {
   text-shadow: 2px 2px 4px black;
 }
 
-sectionTwo img {
+.sectionTwo img {
   width: 100%;
   margin: 32px 24px 32px 0px;
   align-self: flex-start;
@@ -194,16 +196,16 @@ sectionTwo img {
   border: solid 2px white;
 }
 
-sectionTwoContent h1 {
+.sectionTwoContent h1 {
   margin-top: 0px;
   margin-bottom: 8px;
 }
 
-sectionTwoContent h5 {
+.sectionTwoContent h5 {
   margin-top: 0px;
 }
 
-slides {
+.slides {
   display: flex;
   flex-direction: column;
   width: 423px;
@@ -219,7 +221,7 @@ slides {
 
 }
 
-sectionTwo slides .slide img {
+.sectionTwo .slides .slide img {
   max-width: 35%;
   height: 100%;
   margin: 16px;
@@ -247,7 +249,7 @@ sectionTwo slides .slide img {
   padding-bottom: 16px;
 }
 
-sectionThree {
+.sectionThree {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -258,13 +260,13 @@ sectionThree {
   width: 100%;
 }
 
-sectionThree h1 {
+.sectionThree h1 {
   display: flex;
   width: 100%;
   justify-content: center;
 }
 
-sectionThree h2 {
+.sectionThree h2 {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -272,18 +274,18 @@ sectionThree h2 {
 
 }
 
-sectionThree h3 {
+.sectionThree h3 {
   margin-bottom: 0px;
 
 }
 
-sectionThree h4 {
+.sectionThree h4 {
   margin-top: 10px;
   border-top-width: 10px;
 
 }
 
-courseTiles {
+.courseTiles {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -314,7 +316,7 @@ courseTiles {
 }
 
 
-sectionFour {
+.sectionFour {
   background-color: gray;
   display: flex;
   flex-direction: column;
@@ -324,7 +326,7 @@ sectionFour {
   width: 100%;
 }
 
-sectionFour h1 {
+.sectionFour h1 {
   margin: 0px;
   width: 100%;
   padding-top: 32px;
@@ -332,7 +334,7 @@ sectionFour h1 {
   text-align: center;
 }
 
-sectionFour video {
+.sectionFour video {
   width: 60%;
   margin: 0px 16px 24px 24px;
   align-self: flex-start;
@@ -340,7 +342,7 @@ sectionFour video {
   border: solid 2px white;
 }
 
-sectionFour img {
+.sectionFour img {
   max-height: 100%;
   width: auto;
   margin: 16px;
@@ -348,13 +350,13 @@ sectionFour img {
   border: solid 2px white;
 }
 
-sectionFour .thesis {
+.sectionFour .thesis {
   display: flex;
   flex-direction: row;
 
 }
 
-sectionFour .slide {
+.sectionFour .slide {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -391,7 +393,7 @@ sectionFour .slide {
 
 }
 
-footer {
+.footer {
   display: flex;
   border-top: solid 2px rgba(255, 144, 0, 0.7);
   justify-content: space-between;
@@ -399,7 +401,7 @@ footer {
   margin-right: 10px;
 }
 
-footer h4 {
+.footer h4 {
   margin: 32px 14px 32px 14px;
   color: cornsilk;
   text-shadow: 2px 2px 4px black;
@@ -418,21 +420,21 @@ footer h4 {
 
 /* Breakpoint for mobile version */
 @media only screen and (min-width : 1451px) {
-  navBarMobile {
+  .navBarMobile {
     display: none;
   }
-  sectionTwoMobile {
+  .sectionTwoMobile {
     display: none;
   }
 }
 
 @media only screen and (max-width : 1450px) {
 
-  logo, links{
+  .logo, .links{
     display: none;
   }
 
-  navBarMobile {
+  .navBarMobile {
     display: flex;
     width: 100%;
     height: 100%;
@@ -440,30 +442,30 @@ footer h4 {
     padding-top: 5px;
   }
 
-  navBarMobile img {
+  .navBarMobile img {
     height: 100%;
     width: auto;
 
   }
 
-  navBarMobile a {
+  .navBarMobile a {
     display: block;
   }
 
-  sectionOne img {
+  .sectionOne img {
     width: 99.5%;
     height: auto;
     margin: 16px;
 
   }
 
-  sectionOne {
+  .sectionOne {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-  sectionOneContent {
+  .sectionOneContent {
     display: flex;
     flex-direction: column;
     flex-wrap: no-wrap;
@@ -473,38 +475,38 @@ footer h4 {
     margin-right: 0px;
   }
 
-  sectionOneContent p {
+  .sectionOneContent p {
     margin-top: 32px;
     margin-bottom: 24px;
     text-align: center;
   }
 
-  sectionOneContent div {
+  .sectionOneContent div {
     margin-bottom: 32px;
     margin-right: 46px;
     margin-left: 46px;
     box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
   }
 
-  sectionOneContent a {
+  .sectionOneContent a {
     width: 50%;
   }
 
-  sectionTwoContent, slides {
+  .sectionTwoContent, .slides {
     display: none;
   }
 
-  sectionTwoMobile {
+  .sectionTwoMobile {
     color: cornsilk;
     text-shadow: 2px 2px 4px black;
     justify-content: center;
   }
 
-  sectionTwoMobile .mobileSlide {
+  .sectionTwoMobile .mobileSlide {
 
   }
 
-  sectionTwoMobile {
+  .sectionTwoMobile {
     display: flex;
     flex-direction: column;
     margin-top: 16px;
@@ -515,14 +517,14 @@ footer h4 {
     height: auto;
   }
 
-  sectionTwoMobile img {
+  .sectionTwoMobile img {
     width: 99.5%;
     height: auto;
     border-radius: 10px;
     border: solid 2px white;
   }
 
-  mobileTextTwo div {
+  .mobileTextTwo div {
     margin: 0px 16px 0px 16px;
   }
 
