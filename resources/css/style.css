@@ -350,13 +350,11 @@ h1, h2 {
 
 .video iframe {
   width: auto;
-  height: 100%;
   flex: 1 1 auto;
   display: flex;
-  margin: 0px 16px 24px 24px;
   border-radius: 10px;
   border: solid 2px white;
-
+  margin: 0px 16px 0px 24px;
 }
 
 .sectionFour img {
