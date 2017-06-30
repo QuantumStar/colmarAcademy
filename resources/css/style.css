@@ -1,14 +1,13 @@
 
 
-html, body{
-  margin: 0;
-  padding: 0;
-
-}
-
 body {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
   font-family: 'Cinzel', serif;
   background-color: gray;
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -113,15 +112,10 @@ h1, h2 {
   width: 100%;
 }
 
-.imgContainer {
+.sectionOne img {
   display: flex;
-
-}
-
-.sectionOne .imgContainer img {
-  display: flex;
-  width: 100%;
-  height: auto;
+  width: 60%;
+  height: 100%;
   margin: 32px 24px 32px 24px;
   border-radius: 10px;
   border: solid 2px white;
@@ -133,7 +127,7 @@ h1, h2 {
   align-items: center;
   align-self: center;
   justify-content: space-between;
-  margin-left: 40px;
+  margin-left: 16px;
   width: 25%;
   color: cornsilk;
   text-shadow: 2px 2px 4px black;
@@ -430,7 +424,7 @@ h1, h2 {
 }
 
 /* Breakpoint for mobile version */
-@media only screen and (min-width : 1451px) {
+@media only screen and (min-width : 769px) {
   .navBarMobile {
     display: none;
   }
@@ -444,9 +438,9 @@ h1, h2 {
   }
 }
 
-@media only screen and (max-width : 1450px) {
+@media only screen and (max-width : 768px) {
 
-  .body .html .navBar, .sectionOne, .sectionTwo, .sectionThree, .sectionFour, .footer {
+  .body, .html, .navBar, .sectionOne, .sectionTwo, .sectionThree, .sectionFour, .footer {
     display: none;
   }
 
@@ -477,13 +471,14 @@ h1, h2 {
   flex-direction: row;
   width: 100%;
   height: 100%;
+  justify-content: space-around;
 }
 
   .navBarMobile a {
     display: flex;
     height: 100%;
     width: 100%;
-    justify-content: space-around;
+
   }
 
   .navBarMobile img {
@@ -493,21 +488,21 @@ h1, h2 {
 
   .sectionOneMobile {
     display: flex;
-    width: 100%;
-    height: auto;
+    flex-direction: column;
     background-color: rgba(255, 144, 0, 0.7);
-    padding-top: 74px;
+
+    padding: 90px 5px 32px 1px;
   }
 
   .sectionOneImage {
-    display: flex;
     width: 100%;
+    height: auto;
 
   }
 
   .sectionOneMobile img {
-    display: flex;
-    margin: 32px 24px 32px 24px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     border: solid 2px white;
 
@@ -515,7 +510,25 @@ h1, h2 {
 
   .sectionOneContentMobile {
     display: block;
-    width: 100%;
+    color: cornsilk;
+    text-shadow: 2px 2px 4px black;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .sectionOneContentMobile p {
+    font-size: 1.7rem;
+  }
+
+  .sectionOneContentMobile a div {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 6px;
+    background-color: gray;
+    border-radius: 10px;
+    border: solid 2px white;
+    box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
   }
 
 
