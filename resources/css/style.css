@@ -436,6 +436,10 @@ h1, h2 {
   .sectionTwoMobile {
     display: none;
   }
+
+  .sectionThreeMobile {
+    display: none;
+  }
 }
 
 @media only screen and (max-width : 768px) {
@@ -491,6 +495,7 @@ h1, h2 {
     flex-direction: column;
     background-color: rgba(255, 144, 0, 0.7);
     padding: 90px 5px 32px 1px;
+    border-bottom: solid 2px white;
   }
 
   .sectionOneImage {
@@ -535,6 +540,7 @@ h1, h2 {
     background-color: gray;
     justify-content: center;
     padding-bottom: 32px;
+    border-bottom: solid 2px white;
   }
 
   .sectionTwoMobile a {
@@ -561,6 +567,7 @@ h1, h2 {
   .orientationMobileText h2 {
     font-size: 2rem;
     margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .orientationMobileText p {
@@ -576,6 +583,40 @@ h1, h2 {
     border-radius: 10px;
     border: solid 2px white;
     box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
+  }
+
+  .sectionThreeMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 144, 0, 0.7);
+    border-bottom: solid 2px white;
+    color: cornsilk;
+    text-shadow: 2px 2px 4px black;
+    padding: 0 16px 16px 16px;
+  }
+
+  .sectionThreeMobile h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 0px;
+  }
+
+  .sectionThreeMobile ul {
+    list-style: none;
+    font-size: 1.7rem;
+    margin-top: 0px;
+    padding: 0px;
+  }
+
+  .sectionThreeMobile ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: gray;
+    border-radius: 10px;
+    border: solid 2px white;
+    box-shadow: 0px 0px 20px 0px rgb(255, 248, 220);
+    text-align: center;
   }
 
 }
