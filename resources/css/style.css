@@ -339,12 +339,24 @@ h1, h2 {
   text-align: center;
 }
 
-.sectionFour video {
+.sectionFour .video {
+  flex: 1 1 auto;
+  display: flex;
   width: 60%;
+  height: auto;
+  margin-bottom: 19px;
+
+}
+
+.video iframe {
+  width: auto;
+  height: 100%;
+  flex: 1 1 auto;
+  display: flex;
   margin: 0px 16px 24px 24px;
-  align-self: flex-start;
   border-radius: 10px;
   border: solid 2px white;
+
 }
 
 .sectionFour img {
@@ -648,19 +660,24 @@ h1, h2 {
 
   .footerMobile {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: cornsilk;
     text-shadow: 2px 2px 4px black;
     border-bottom: solid 2px white;
-    background-color: gray;
+    background-color: #c0c0c0;
+
   }
 
   .footerMobile h4 {
-    margin: 16px 0;
+    background-color: rgba(255, 144, 0, 0.7);
+    margin: 16px 16px;
     padding: 30px 30px;
     border-radius: 50%;
-    box-shadow: 0px 0px 30px 10px rgb(255, 248, 220), inset 0px 0px 5px 5px cornsilk;
-    opacity: 0.7;
+    box-shadow: 0px 0px 20px 0px rgb(255, 248, 220), inset 0px 0px 11px 5px cornsilk;
+    opacity: 1;
+    text-align: center;
   }
+
 
 }
