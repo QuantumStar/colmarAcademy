@@ -619,4 +619,34 @@ h1, h2 {
     text-align: center;
   }
 
+  .sectionFourMobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border-bottom: solid 2px white;
+    color: cornsilk;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+  }
+
+  .sectionFourMobile iframe {
+    max-width: 100%;
+    padding-bottom: 24px;
+
+  }
+
+  .footerMobile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: cornsilk;
+    text-shadow: 2px 2px 4px black;
+    border-bottom: solid 2px white;
+  }
+
+  .footerMobile h4 {
+    margin: 16px 0;
+  }
+
 }
