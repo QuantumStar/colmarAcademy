@@ -360,7 +360,7 @@ h1, h2 {
   flex: 1 1 auto;
   display: flex;
   min-width: 60%;
-  margin-bottom: 19px;
+  margin-bottom: 20px;
 }
 
 .video {
