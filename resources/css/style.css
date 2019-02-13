@@ -83,6 +83,10 @@ h1, h2 {
   color: black;
 }
 
+.links a:hover {
+  color: rgba(255, 144, 0, 1);
+}
+
 .links ul {
   display: flex;
   flex-direction: row;
