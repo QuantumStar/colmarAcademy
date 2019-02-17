@@ -262,7 +262,7 @@ h1, h2 {
 .three {
   flex-wrap: nowrap;
   background-color: rgba(255, 144, 0, 0.7);
-  margin-bottom: 16px;
+  border-bottom: 2px solid gray;
 }
 
 .three #readMore a {
