@@ -226,6 +226,8 @@ h1, h2 {
 .slides {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  width: auto;
   margin-left: 24px;
   border-left: solid 2px rgba(255, 144, 0, 0.7);
   color: cornsilk;
@@ -235,6 +237,10 @@ h1, h2 {
 .slide {
   display: flex;
   flex-wrap: nowrap;
+}
+
+.slide img {
+  align-self: center;
 }
 
 .sectionTwo .slides .slide img {
